@@ -1,0 +1,5 @@
+OpenRefMic sensitivity at 94dBSPL (1Pa), 1kHz
+-20.7dBV
+
+sensitivity into Focusrite Scarlett 2i2 at minimum gain setting
+-27.1dBFS

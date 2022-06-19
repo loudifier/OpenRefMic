@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jefdav\OneDrive\Loudifier\Projects\Ref mic\ref_mic\ref_mic.kicad_sch</source>
+    <date>6/13/2022 10:26:47 PM</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OpenRefMic</title>
+        <company>Loudifier - MIT license - https://github.com/loudifier/OpenRefMic</company>
+        <rev>1.0</rev>
+        <date>2022-06-13</date>
+        <source>ref_mic.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4716f4ef-122c-4dce-9f00-0b35a3909a25</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF 16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9e5c0ac-1ffd-4eaf-9458-efff9fe2010d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e6b2b31-0e83-4792-ad60-17e4c8f62156</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF 50v</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e66ecf5-92c2-43cb-b951-647a7821a737</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF 50v</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b276cee-ec52-4e33-b236-d6fdf9af787c</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF 50v</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa61b9b9-e2a6-4ff7-a661-173f940b6096</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF 50v</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5279d154-5bbe-45da-b5dc-c931b9d08ad1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3520f3d7-b804-4a09-a52f-ce1fe41f9089</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc0481f7-2562-470c-a55e-5ec758253e7f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>5V6</value>
+      <footprint>Package_TO_SOT_SMD:SC-59_Handsoldering</footprint>
+      <libsource lib="" part="D_Zener_1" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3f055ef-f3d2-49ea-a4d1-c26857ed3592</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Signal Diode</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14be86a7-69fb-453d-9746-048d926bc3e5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>24V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10aafd9a-793f-41f4-86e7-bd5cb6541434</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>XLR3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="XLR3" description="XLR Connector, Male or Female, 3 Pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ac60a8-646f-43a3-8598-0cd6f0bd53f4</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>AOM-5024L-HD-F-R</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="Microphone" description="Microphone"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d2f2d8e-0514-4d74-883a-98f612442ba3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e271bef5-15e4-40c9-876c-89aee48ff184</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b43f3b8-d080-48d7-9279-6bcfafd4da0d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf293fc3-0f93-4cc4-ba29-ea566fa56ab7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0943ef2b-8689-4425-8dd5-bc9d57b8985e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af6d7237-c63c-4288-a0fa-08d25bc811c8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46f52cf3-e404-4c35-9b0f-ec303072ef8f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e51e5768-e1af-448e-8d73-2a64bafc6c39</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>679c3c83-840d-4429-a78f-239d1b17f015</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4102cee8-e74b-4995-a09a-f47ba68ba85a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1732192-b494-4a36-addb-26723b91fd64</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75ec73d6-6af4-4b2c-911f-d06573d2b96a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>OPA1611</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="OPAMP" description="Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ref_mic.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>062bfe21-50bc-4c32-bf88-2a9a625d664f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="D_Zener_1">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">D_Zener_1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SC-59_Handsoldering</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="XLR3">
+      <description>XLR Connector, Male or Female, 3 Pins</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XLR3</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">24V</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23_Handsoldering</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Microphone">
+      <description>Microphone</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Microphone</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">DIODE</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="OPAMP">
+      <description>Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">OPAMP</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Mic+">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="MK1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/Micbias">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/Opamp_In+">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="4" name="/Opamp_In-">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="5" name="/Opamp_Out">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="output"/>
+    </net>
+    <net code="6" name="/Opamp_VDD">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="7" name="/VGND">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/XLR2(+)">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/XLR3(-)">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="MK1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
