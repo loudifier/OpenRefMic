@@ -43,7 +43,9 @@ The performance of the complete OpenRefMic prototype is excellent (after applyin
 
 ### Low noise
 
-This is the most important factor of the OpenRefMic project, and all of the other performance metrics and goals are considered "nice to have". While there are several popular affordable measurement microphones on the market (like the Dayton EMM-6), their noise performance ranges from mediocre to poor. Even professional reference microphones tend to prioritize frequency response flatness over noise performance, and very low noise reference microphones are prohibitively expensive for the hobbyist or self-funded experimenter.
+This is the most important factor of the OpenRefMic project, and all of the other performance metrics and goals are considered "nice to have". While there are several popular affordable measurement microphones on the market (like the Dayton EMM-6), their noise performance ranges from mediocre to poor. Even professional reference microphones tend to prioritize frequency response flatness over noise performance, and very low noise reference microphones are prohibitively expensive for the hobbyist or self-funded experimenter. The video below is an example of the dramatic difference in noise performance between OpenRefMic and the Dayton EMM-6.
+
+![field recording noise comparison](https://user-images.githubusercontent.com/23405416/175431344-0c36cc5d-fb55-48f4-8029-bcf0d835c0a0.mp4)
 
 Low noise is obviously helpful for applications like field recordings or measuring low-level noise emissions, but one area where microphone noise floor is often overlooked is in speaker distortion measurements. Increasing the stimulus and analysis window or moving the microphone closer to the speaker can help resolve lower distortion levels, but those options may not always be feasible for the given speaker or test setup. The graph below is an example of the differences that you might see between distortion measurements with a typical budget measurement mic with a ~34dBA noise floor and an OpenRefMic with ~18dBA noise floor.
 
