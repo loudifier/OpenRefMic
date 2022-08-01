@@ -6,7 +6,7 @@ Ref,Quantity,Value,Package,Description,Vendor,Price,"Price, ext.",Link
 "D1, ",1,5V6,SOT-23-3,Zener diode,Nexperia,$0.17,$0.17,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX84-C5V6-235/1156103
 "D2, ",1,Signal Diode,SOT-23-3,Small signal diode,onsemi,$0.13,$0.13,https://www.digikey.com/en/products/detail/onsemi/BAS19LT3G/1475472
 "D3, ",1,24V,SOT-23-3,Zener diode,Nexperia,$0.16,$0.16,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX8450-C24-QR/15778318
-"R1, R8, R12, ",3,4k7,SMD 0603,Resistor,Susumu,$0.38,$1.14,https://www.digikey.com/en/products/detail/susumu/RG1608P-472-B-T5/1240593
+"R1, R3, R8, R12, ",4,4k7,SMD 0603,Resistor,Susumu,$0.38,$1.14,https://www.digikey.com/en/products/detail/susumu/RG1608P-472-B-T5/1240593
 "R2, ",1,100k,SMD 0603,Resistor,Bourns,$0.10,$0.10,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-JW-104ELF/2345098
 "R4, R9, R10, ",3,10k,SMD 0603,Resistor,Stackpole,$0.10,$0.30,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139
 "R5, R6, ",2,100R,SMD 0603,Resistor,Susumu,$0.10,$0.20,https://www.digikey.com/en/products/detail/susumu/RR0816P-101-D/432161
