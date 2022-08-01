@@ -1,6 +1,6 @@
 Ref,Quantity,Value,Package,Description,Vendor,Price,"Price, ext.",Link
 "C1, C9, C10, ",3,10uF 16V,SMD 0805,Unpolarized capacitor,Samsung,$0.11,$0.33,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417
-"C2, ",1,22uF 16V,SMD electrolytic capacitor 5x5.4mm,Polarized capacitor,Nichicon,$0.39,$0.39,https://www.digikey.com/en/products/detail/nichicon/UWX1C220MCL1GB/589842
+"C2, C3, ",2,22uF 16V,SMD electrolytic capacitor 5x5.4mm,Polarized capacitor,Nichicon,$0.39,$0.39,https://www.digikey.com/en/products/detail/nichicon/UWX1C220MCL1GB/589842
 "C4, ",1,0.1uF 50V,SMD 0603,Unpolarized capacitor,Samsung,$0.10,$0.10,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NFNC/3887592
 "C5, C6, C7, C8, ",4,10uF 50v,SMD electrolytic capacitor 6.3x5.4mm,Polarized capacitor,Nichicon,$0.85,$3.40,https://www.digikey.com/en/products/detail/nichicon/UUQ1H100MCL1GB/1965344
 "D1, ",1,5V6,SOT-23-3,Zener diode,Nexperia,$0.17,$0.17,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX84-C5V6-235/1156103
