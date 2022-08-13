@@ -1,20 +1,28 @@
 Ref,Quantity,Value,Package,Description,Vendor,Price,"Price, ext.",Link
-"C1, C9, C10, ",3,10uF 16V,SMD 0805,Unpolarized capacitor,Samsung,$0.11,$0.33,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417
-"C2, ",1,22uF 16V,SMD electrolytic capacitor 5x5.4mm,Polarized capacitor,Nichicon,$0.39,$0.39,https://www.digikey.com/en/products/detail/nichicon/UWX1C220MCL1GB/589842
-"C4, ",1,0.1uF 50V,SMD 0603,Unpolarized capacitor,Samsung,$0.10,$0.10,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NFNC/3887592
-"C5, C6, C7, C8, ",4,10uF 50v,SMD electrolytic capacitor 6.3x5.4mm,Polarized capacitor,Nichicon,$0.85,$3.40,https://www.digikey.com/en/products/detail/nichicon/UUQ1H100MCL1GB/1965344
-"D1, ",1,5V6,SOT-23-3,Zener diode,Nexperia,$0.17,$0.17,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX84-C5V6-235/1156103
-"D2, ",1,Signal Diode,SOT-23-3,Small signal diode,onsemi,$0.13,$0.13,https://www.digikey.com/en/products/detail/onsemi/BAS19LT3G/1475472
-"D3, ",1,24V,SOT-23-3,Zener diode,Nexperia,$0.16,$0.16,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX8450-C24-QR/15778318
-"R1, R8, R12, ",3,4k7,SMD 0603,Resistor,Susumu,$0.38,$1.14,https://www.digikey.com/en/products/detail/susumu/RG1608P-472-B-T5/1240593
-"R2, ",1,100k,SMD 0603,Resistor,Bourns,$0.10,$0.10,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-JW-104ELF/2345098
-"R4, R9, R10, ",3,10k,SMD 0603,Resistor,Stackpole,$0.10,$0.30,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139
-"R5, R6, ",2,100R,SMD 0603,Resistor,Susumu,$0.10,$0.20,https://www.digikey.com/en/products/detail/susumu/RR0816P-101-D/432161
-"R7, R11, ",2,33k,SMD 0603,Resistor,Bourns,$0.10,$0.20,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-JW-333ELF/2345099
-"U1, ",1,OPA1611,SOIC-8,"Operational amplifier, single",Texas Instruments,$4.76,$4.76,https://www.digikey.com/en/products/detail/texas-instruments/OPA1611AIDR/2232384
-"J1, ",1,XLR3,,"Mini XLR connector, male",Switchcraft,$11.35,$11.35,https://www.digikey.com/en/products/detail/switchcraft-inc/TA3MLX/1289885
-"MK1, ",1,AOM-5024L-HD-F-R,,Electret microphone capsule,PUI,$3.01,$3.01,https://www.digikey.com/en/products/detail/pui-audio-inc/AOM-5024L-HD-F-R/12152286
-Adapter,1,,,"Mini XLR connector, female",Switchcraft,$10.74,$10.74,https://www.digikey.com/en/products/detail/switchcraft-inc/TA3FLX/1290022
-PCB,1,,,10x50mm circuit board (x3),OSHPark,$3.75,$3.75,
-,,,,,,,,
-,,,,Total,,,$40.23,
+"C1, C9, C10",3,10uF 16V,SMD 0805,Unpolarized capacitor,Samsung,$0.11 ,$0.33 ,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNG/3894417
+C2,1,22uF 16V,SMD electrolytic capacitor 5x5.4mm,Polarized capacitor,Nichicon,$0.39 ,$0.39 ,https://www.digikey.com/en/products/detail/nichicon/UWX1C220MCL1GB/589842
+C4,1,0.1uF 50V,SMD 0603,Unpolarized capacitor,Samsung,$0.10 ,$0.10 ,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NFNC/3887592
+"C5, C6, C7, C8",4,10uF 50v,SMD electrolytic capacitor 6.3x5.4mm,Polarized capacitor,Nichicon,$0.85 ,$3.40 ,https://www.digikey.com/en/products/detail/nichicon/UUQ1H100MCL1GB/1965344
+D1,1,5V6,SOT-23-3,Zener diode,Nexperia,$0.17 ,$0.17 ,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX84-C5V6-235/1156103
+D2,1,Signal Diode,SOT-23-3,Small signal diode,onsemi,$0.13 ,$0.13 ,https://www.digikey.com/en/products/detail/onsemi/BAS19LT3G/1475472
+D3,1,24V,SOT-23-3,Zener diode,Nexperia,$0.16 ,$0.16 ,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZX8450-C24-QR/15778318
+"R1, R3, R8, R12",4,4k7,SMD 0603,Resistor,Susumu,$0.38 ,$1.14 ,https://www.digikey.com/en/products/detail/susumu/RG1608P-472-B-T5/1240593
+R2,1,100k,SMD 0603,Resistor,Bourns,$0.10 ,$0.10 ,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-JW-104ELF/2345098
+"R4, R9, R10",3,10k,SMD 0603,Resistor,Stackpole,$0.10 ,$0.30 ,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10K0/2240139
+"R5, R6",2,100R,SMD 0603,Resistor,Susumu,$0.10 ,$0.20 ,https://www.digikey.com/en/products/detail/susumu/RR0816P-101-D/432161
+"R7, R11 ",2,33k,SMD 0603,Resistor,Bourns,$0.10 ,$0.20 ,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-JW-333ELF/2345099
+U1,1,OPA1611,SOIC-8,"Operational amplifier, single",Texas Instruments,$4.76 ,$4.76 ,https://www.digikey.com/en/products/detail/texas-instruments/OPA1611AIDR/2232384
+J1,1,XLR3,,"Mini XLR connector, male",Switchcraft,$11.35 ,$11.35 ,https://www.digikey.com/en/products/detail/switchcraft-inc/TA3MLX/1289885
+MK1,1,AOM-5024L-HD-F-R,,Electret microphone capsule,PUI,$3.01 ,$3.01 ,https://www.digikey.com/en/products/detail/pui-audio-inc/AOM-5024L-HD-F-R/12152286
+Adapter,1,,,"Mini XLR connector, female",Switchcraft,$10.74 ,$10.74 ,https://www.digikey.com/en/products/detail/switchcraft-inc/TA3FLX/1290022
+PCB,1,,,10x50mm circuit board (x3),OSHPark,$3.75 ,$3.75
+
+,,,,Total,,,$40.23
+
+
+"Optional, components to increase preamp gain. See note on schematic"
+Ref,Quantity,Value,Package,Description,Vendor,Price,"Price, ext.",Link
+C3,1,22uF 16V,SMD electrolytic capacitor 5x5.4mm,Polarized capacitor,Nichicon,$0.39 ,$0.39 ,https://www.digikey.com/en/products/detail/nichicon/UWX1C220MCL1GB/589842
+R3,1,4k7,SMD 0603,Resistor,Susumu,$0.38 ,$0.38 ,https://www.digikey.com/en/products/detail/susumu/RG1608P-472-B-T5/1240593
+
+,,,,Optional components total,,,$0.77
