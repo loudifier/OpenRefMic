@@ -6,9 +6,11 @@ The preamplifier is the heart of the OpenRefMic project, powering an electret mi
 
 <br>
 
-## Schematic, project files
+## Schematic, layout, project files
 
-The preamplifier schematic in PDF format can be found [here](OpenRefMic-schematic.pdf), and the KiCAD project files are [here](ref_mic/). The complete bill of materials (including a connector to make a mini-XLR adapter from a full size XLR cable and the cost of PCBs from OSHPark) is [here](OpenRefMic-schematic.pdf).
+The preamplifier schematic in PDF format can be found [here](OpenRefMic-schematic.pdf), and the KiCAD project files and gerbers are [here](ref_mic/). The complete bill of materials (including a connector to make a mini-XLR adapter from a full size XLR cable and the cost of PCBs from OSHPark) is [here](OpenRefMic-schematic.pdf).
+
+![PCB](../img/pcb.jpg)
 
 <br>
 
