@@ -1,0 +1,279 @@
+SnapMagic Search Website Terms of Use
+
+THANK YOU FOR CONSIDERING THE USE OF SnapMagic Search, INC. ("SnapMagic Search") AND ITS SITE (HEREINAFTER DEFINED). BY ACCESSING OR USING ANY PART OF THIS SITE AND SITE MATERIALS (HEREINAFTER DEFINED), YOU ARE ACKNOWLEDGING THAT YOU HAVE READ, FULLY UNDERSTAND AND AGREE TO THESE TERMS AND CONDITIONS (the "Agreement"), WHICH CONSTITUTE A BINDING AGREEMENT BETWEEN YOU AND SnapMagic Search ENTERED INTO ON THE DATE OF SUCH OCCURRENCE (the "Effective Date"). IF YOU ARE ACCESSING OR USING THE SITE AND SITE MATERIALS ON BEHALF OF AN ENTITY, YOU REPRESENT THAT YOU HAVE THE RIGHT, AUTHORITY, AND CAPACITY TO BIND SUCH ENTITY TO THIS AGREEMENT AND HEREBY DO SO.
+
+IF YOU DO NOT AGREE WITH ANY OF THE TERMS OR CONDITIONS OF THIS AGREEMENT, YOU MUST NOT USE ANY PART OF THE SITE OR SITE MATERIALS.
+
+This Agreement is in English. By entering into the Agreement you hereby irrevocably and unconditionally (a) agree that English is the governing language for this Agreement and (b) waive any Law applicable to you requiring that the Agreement be localized to meet your language or requiring an original (non-electronic) signature or delivery or retention of non-electronic records.
+
+1               DEFINITIONS AND INTERPRETATION
+
+Please note that this Agreement contains a range of capitalized terms, some of which are defined in this Section, and some of which are defined in the operative provisions below. Section and sub-section headings in this Agreement are for convenience of reading only. They shall not be used or relied upon for interpretive purposes.
+
+"Content" as used herein includes any text, data, images, graphics, sounds, videos, audio clips, posts, comments, links, and/or software code of or on the Site (such as, but not limited to, Design Files or Submissions, as defined below).
+
+"Design Files" as used herein refers to all digital models, schematics, layouts, blueprints, and other computer-aided design ("CAD") files distributed to or by SnapMagic Search, including, but not limited to, Submissions and other material on the Site produced by SnapMagic Search.
+
+"Feature" as used herein means any tool and/or feature of the Site (including but not limited to InstaPart).
+
+"Intellectual Property" as used herein means any and all inventions, discoveries, improvements, new uses, works of authorship, technical information, data, technology, know-how, show-how, designs, drawings, utility models, topography and semiconductor mask works, specifications, formulas, methods, techniques, processes, databases, computer software and programs (including object code, source code, and non-literal aspects), algorithms, architecture, records, documentation, and other similar intellectual property, in any form and embodied in any media, whether or not protectable or registrable.
+
+"Intellectual Property Rights" as used herein means any and all rights, titles, and interests in and to Intellectual Property, including without limitation patents, copyright and similar authorship rights, mask work rights, trade secret and similar confidentiality rights, design rights, industrial property rights, trademark, trade name, trade dress and similar branding rights, as well as: (a) all applications, registrations, renewals, extensions, continuations, continuations-in-part, divisions or reissues of the foregoing rights; and (b) all goodwill associated with the foregoing rights.
+
+"Law" as used herein means any federal, state, foreign, regional or local statute, regulation, ordinance, or rule of any jurisdiction.
+
+"Marks" as used herein means trademarks, trade names, logos, design marks, service marks, service names, trade dress, and/or brand names.
+
+"Site" as used herein means the website https://SnapEDA.com/ together with its subdomains, webpages, and application program interface, and, for the avoidance of doubt, also includes its 'look-and-feel' and design and arrangement elements.
+
+"Site Materials" as used herein means, collectively, Content, Design Files, and Features
+
+"SnapMagic Search Content Affiliate" as used herein means any entity which has entered into an agreement with SnapMagic Search (including but not limited to this Agreement) to re-distribute Design Files or Submissions (as defined in Section 6).
+
+"Submissions" as used herein means any Content, including but not limited to CAD files, that are submitted, posted, uploaded, or otherwise made available on or through the Site for public viewing.
+
+2               MODIFICATION
+
+2.1           SnapMagic Search may modify this Agreement at any time by posting the modified Agreement on the Site and reserves the right to do so. Such modifications will be effective ten (10) days after such posting, and your continued use of any part of the Site after such date constitutes your agreement to be bound by the modified Agreement.
+
+2.2           Any new services, content, and functionality available to you through the Site and Site Materials will be subject to this Agreement and any additional terms that accompany the services, content, and functionality.
+
+3               SITE USE LICENSE
+
+3.1           Subject to the terms and conditions of this Agreement, SnapMagic Search grants you a limited, non-exclusive, non-assignable, non-transferable, and non-sublicensable license, during the Term (defined below), to access and display locally the Site for the sole purpose of viewing the Site and Site Materials for your own benefit or posting Submissions to the Site and expressly does not include any other uses including (without limitation) use of the Site or Site Materials to aggregate Design Files or other information herein for display elsewhere or for the creation of a competing site or service (collectively, the "License").
+
+3.2           The Site and Site Materials (and any copies thereof made available to you) are licensed only under this Agreement, and no title in or to the Site, the Site Materials, or such copies pass to you. Except for the License, you are granted no other right in or to the Site or Site Materials, whether by implied license, estoppel, patent exhaustion, operation of law, or otherwise.
+
+3.3           This Section 3 License only applies to the Site and Site Materials, and not to the Design Files, which are licensed as per Section 4 below.
+
+4               USE OF DESIGN FILES LICENSE
+
+4.1           Creative Commons Attribute License: Individual Design Files downloaded from SnapMagic Search are licensed to you pursuant to Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) ("Creative Commons License") and pursuant to the Design Exception 1.0 set forth below in Subsection 4.2. The Creative Commons License allows you to use Design Files downloaded from SnapMagic Search for commercial and personal purposes free of charge, and to make derivative works as set forth below.
+4.2           Design Exception 1.0: You and your sub-licensees are hereby licensed to design, manufacture, use and distribute, circuit board designs and circuit boards formed by combining Design Files provided by SnapMagic Search with other circuit elements of your choosing. You may then convey such combinations under terms of your choice, and are not required to attribute SnapMagic Search as the source, even if such actions would otherwise violate the terms of the Creative Commons License. For clarity, any files shared publicly containing Design Files are still subject to the Site License restriction of 5.1.(g)
+5               RESTRICTIONS ON SITE AND DESIGN FILE USAGE
+
+5.1           Except to the extent expressly permitted otherwise in this Agreement, you shall not (and shall not permit or encourage any third party to) do any of the following:
+
+(a)            sell, assign, lease, lend, rent, issue, sublicense, make available, or otherwise distribute to any third party, or publicly perform, display or communicate, the Site or Site Materials (for example, by uploading Design Files to another website or application);
+
+(b)            modify, alter, adapt, arrange, translate, decompile, disassemble, reverse engineer, decrypt, or otherwise attempt to discover the source code or non-literal aspects of, the Site or Site Materials;
+
+(c)             remove, alter, or conceal, any copyright, trademark, or other proprietary rights notice or legend displayed or contained on or in the Site or Site Materials;
+
+(d)            make a derivative work of the Site or Site Materials, or use the Site or Site Materials to develop any service or product that is the same as (or substantially similar to) the Site or Site Materials;
+
+(e)            copy or reproduce the Site or Site Materials;
+
+(f)              distribute or share any parts of the Site, Design Files, or Site Materials within any other software, or as an appendage thereof;
+
+(g)            distribute more than 10 Design Files to or through any one location, without prior written permission from SnapMagic Search;
+
+(h)            use the Site or Site Materials to infringe, misappropriate or violate any third party's Intellectual Property Rights, moral rights, privacy or other personal right, or any Law;
+
+(i)              publish or transmit any robot, malware, Trojan horse, spyware, or similar malicious item intended (or that has the potential) to damage or disrupt the Site or Site Materials; and/or
+
+(j)              disclose to the public the results of any internal performance testing or benchmarking studies of or about the Site or Site Materials, without first sending the results and related study(ies) to SnapMagic Search, and obtaining SnapMagic Search's written approval of the assumptions, methodologies and other parameters of the testing or study.
+
+5.2           The above restrictions are limitations on the Site and Design File Licenses, and your full compliance with the above is a condition to the License. For the avoidance of doubt, references in this Section to "Site" and "Site Materials" shall be taken to mean the Site and Site Materials, respectively, whether in whole or in part.
+
+6               SUBMISSIONS UPLOADED TO SITE OR PROVIDED TO SnapMagic Search FOR UPLOAD
+
+When and if you make any Submissions, you agree to the following terms and conditions:
+
+6.1           License Grant To Submissions: You hereby grant to SnapMagic Search the following rights for the use of such Submissions: a worldwide, non-exclusive, royalty-free, fully-paid, perpetual, irrevocable, sublicensable (through multiple tiers of sublicensees), assignable, and transferable license to use, reproduce, copy, modify, adapt, arrange, translate, create derivative works of, and publicly display, perform and communicate such Submissions, for the purpose of making available, improving, and/or promoting the Site and/or Site Materials and/or the purpose of designing, manufacturing, using and/or distributing circuit board designs and circuit boards (the "Submission License");
+
+6.2           Representations And Warranty Re Submissions: You hereby represent and warrant that: (a) your Submissions do not and will not infringe, misappropriate or violate any third party's Intellectual Property, moral rights, privacy or other personal right, or any Law; and (b) you have, and will maintain during and after any termination of this Agreement, all licenses, consents, permissions and approvals required to grant the Submission License; and (c) if you are an employee of a component manufacturer, or another company, person or entity that owns the rights to the content, that you have the permission and legal ability on behalf of your employer to accept this agreement and grant the rights granted herein.
+
+6.3           Intellectual Property Rights: You hereby irrevocably and unconditionally waive (and will cause to be waived), and covenant never (whether during or after the Term) to assert against SnapMagic Search, SnapMagic Search Content Affiliates, and/or any user of the Site or their transferees, any Intellectual Property Rights, moral, privacy or other personal right in or to your Submissions. The Submission License shall survive any termination of this Agreement. Submissions made publicly available will not be deemed (or treated as) confidential or sensitive to you.
+
+6.4           No Obligation Re Submissions: SnapMagic Search undertakes and has no obligation to review, accept, display, store, maintain, or provide you a copy of any of your Submissions, or any of your Intellectual Property Rights in and to Submissions. SnapMagic Search may, for any reason and at any time, and without notice to you, replace, edit, and/or remove or delete your Submissions, including, but not limited to, when : (a) SnapMagic Search believes that you are in possible breach of any provision of this Agreement or have violated (or are suspected by SnapMagic Search of violating) any applicable Law; and/or (b) SnapMagic Search deems it helpful or necessary to comply with any applicable Law, legal process, or governmental request, to enforce this Agreement (including investigations of potential breaches thereof), detect, prevent, or otherwise address fraud or security issues, or protect against harm to the rights, property or safety of SnapMagic Search, its users, yourself or the public.
+
+7               FEATURES
+
+7.1           SnapMagic Search reserves the right to remove, modify, and/or add any Features at any time, without any notice to you, and for any reason. Some Features may in any event be limited, suspended, or restricted by geography, volume, duration, or any other criteria determined by SnapMagic Search. If SnapMagic Search determines that you are in breach of any provision of this Agreement, SnapMagic Search reserves the right to block you from the Site or from certain Features in its sole discretion.
+
+8           PRIVACY
+
+8.1        You hereby acknowledge that, in accordance with SnapMagic Search's privacy policy, available at https://www.snapeda.com/about/privacy/ ("Privacy Policy"), which is hereby incorporated into this Agreement, SnapMagic Search may collect, obtain, store and use information about your use of the Site and Site Materials. SnapMagic Search reserves the right to modify its Privacy Policy at any time, without any notice to you, and for any reason.
+
+9           ACCOUNT SECURITY
+
+9.1        You are responsible for safeguarding the password that you use to access the Site or Site Materials and you agree not to disclose your password to any third party. You are responsible for any activity using your account, whether or not you authorized that activity. You should immediately notify SnapMagic Search of any unauthorized use of your account. You acknowledge that if you wish to protect your transmission of anything to SnapMagic Search, it is your responsibility to use a secure encrypted connection to communicate with the Site.
+
+10           FEEDBACK
+
+10.1        The terms of this Agreement do not grant you any right, title, or interest in the Site or Site Materials or the content in the Site or Site Materials. To the extent you provide any feedback, ideas or suggestions concerning the Site or Site Materials (collectively, "Feedback"), you hereby grant SnapMagic Search a worldwide, non-exclusive, royalty-free, fully-paid, perpetual, irrevocable, sublicensable (through multiple tiers of sublicensees), assignable, and transferable license to use, copy, reproduce, distribute, modify, alter, adapt, arrange, translate, create derivative works of, publicly display, perform and communicate, and otherwise commercially exploit such Feedback, for any purpose whatsoever (the "Feedback License"). You hereby represent and warrant that: (a) Feedback will not infringe, misappropriate or violate any third party's Intellectual Property Rights, moral rights, privacy or other personal right, or any Law; and (b) you have, and will maintain during and after any termination of this Agreement, all licenses, consents, permissions and approvals required to grant the Feedback License. The Feedback License shall survive any termination of this Agreement. Feedback will not be deemed (or treated as) confidential or sensitive to you. Feedback does not include Submissions.
+
+11           OTHER CONTENT
+
+11.1        The Site may contain links to or permit the use of third party websites or third party content. SnapMagic Search does not endorse and is not responsible or liable for their availability, accuracy, the related content, products, or services. You are solely responsible for your use of any such websites or third party content and you may be subject to any applicable third party terms and conditions. Also, if we provide you with any software under an open source license, there may be provisions in those licenses that expressly conflict with this Agreement, in which case the open source provisions will apply.
+
+12           TERM
+
+12.1        This Agreement commences on the Effective Date and will remain in full force and effect until terminated by either party in accordance herewith (the "Term").
+
+13           TERMINATION
+
+13.1        SnapMagic Search reserves the right to immediately terminate this Agreement, or otherwise modify, suspend, or discontinue your access to and use of the Site (or any part thereof), for any reason whatsoever, at any time, and without notice to you. You agree that SnapMagic Search will have no liability or obligation to you for any such termination, modification, suspension, or discontinuance. Your sole remedy in the event you object to any provision of this Agreement or become dissatisfied with the Site or Site Materials, is to terminate this Agreement by ceasing to access and use the Site and Site Materials.
+
+13.2        If we suspend your right to access any portion or all of the Site or Site Materials, you remain responsible for all fees and charges you have incurred through the date of suspension and for any applicable fees and charges for any Site or Site Materials to which you continue to have access, and we will refund you the amount of any prepaid fees for the remainder of the Initial Term or Renewal Term as applicable. If you or we terminate your right to access any portion or all of the Site or Site Materials, you remain responsible for all fees and charges through the date of termination and we will not provide a refund.
+
+14           EXCLUSIVE REMEDY
+
+14.1        IN THE EVENT OF ANY PROBLEM WITH THE SITE, SITE MATERIALS, SERVICES, CONTENT, SOFTWARE, YOUR SUBMISSIONS OR ANY THIRD PARTY USER GENERATED CONTENT AVAILABLE ON OR THROUGH THE SITE, YOU AGREE THAT YOUR SOLE AND EXCLUSIVE REMEDY IS TO CEASE USING THE SITE, SITE MATERIALS, SERVICES, CONTENT, SOFTWARE, YOUR SUBMISSIONS OR ANY THIRD PARTY USER GENERATED CONTENT AVAILABLE ON OR THROUGH THE SITE. UNDER NO CIRCUMSTANCES SHALL SnapMagic Search AND OUR AFFILIATES, SUBSIDIARIES, AGENTS, SUCCESSORS, ASSIGNS, THIRD PARTY PROVIDERS, LICENSORS, AND SUPPLIERS BE LIABLE IN ANY WAY FOR YOUR ACCESS AND USE OF THE SITE, SITE MATERIALS, SERVICES, CONTENT, SOFTWARE, YOUR SUBMISSIONS, OR THIRD PARTY USER GENERATED CONTENT AVAILABLE ON OR THROUGH THE SITE, INCLUDING, BUT NOT LIMITED TO, ANY ERRORS OR OMISSIONS, ANY INFRINGEMENT OF THE INTELLECTUAL PROPERTY RIGHTS OR OTHER RIGHTS OF THIRD PARTIES, OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF, OR RELATED TO, THE USE OF THE SITE, SITE MATERIALS, SERVICES, CONTENT, SOFTWARE, YOUR SUBMISSIONS OR ANY THIRD PARTY USER GENERATED CONTENT AVAILABLE ON OR THROUGH THE SITE. Certain jurisdictions do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, so the exclusions set out herein may not apply to you.
+
+15           CONSEQUENCES OF TERMINATION; SURVIVAL
+
+15.1        Upon termination of this Agreement: (a) the License will automatically terminate; and (b) you shall immediately cease all access to and use of the Site and Site Materials, except for your Submissions, which you retain ownership of. Termination of this Agreement shall not affect any right or liability accrued by either party as of the effective date of termination. Any provision in this Agreement that is stated to survive termination, shall survive, as will Sections 15 (Consequences of Termination; Survival) through 21 (General) inclusive.
+
+16           SnapMagic Search INTELLECTUAL PROPERTY POLICY
+
+16.1        Copyright: SnapMagic Search respects the intellectual property of others and asks that users of our Site and Site Materials do the same. When using the Site or Site Materials and creating Submissions, make sure that you are using either original works or have obtained the applicable consent of any third party to use such works for that purpose, in order not to infringe on the intellectual property rights, including copyright, of others. We reserve the right to delete or disable your Submissions and any Content alleged to be infringing and to terminate repeat infringers. In connection with our Site and Site Materials, SnapMagic Search has adopted and implemented a policy respecting Intellectual Property that provides for the removal of any infringing or unauthorized materials or Content and for the account termination, in appropriate circumstances determined in the sole discretion of SnapMagic Search, of users of our online Site and Site Materials who are infringers of Intellectual Property Rights or who submit unauthorized content.
+
+16.2        Notice by Copyright Owners: If you are a copyright owner or an agent thereof and believe that any Content infringes upon your copyrights, you may submit a notification pursuant to the Digital Millennium Copyright Act ("DMCA") by providing our Copyright Agent with the following information in writing (pursuant to 17 U.S.C 512(c)(3)):
+
+á       A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;
+
+á       Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;
+
+á       Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled
+
+á       Information reasonably sufficient to permit us to locate the material;
+
+á       Information reasonably sufficient to permit the service provider to contact you, such as an address, telephone number, and, if available, an electronic mail;
+
+á       A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and
+
+á       A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+Please note that, pursuant to 17 U.S.C. ¤ 512(f), any misrepresentation of material fact (falsities) in a written notification automatically subjects the complaining party to liability for any damages, costs and attorney's fees incurred by us in connection with the written notification and allegation of copyright infringement.
+
+You may direct copyright infringement notifications to our Copyright Agent ("Copyright Agent"):
+
+Copyright Compliance Manager
+548 Market St
+PMB 67108
+San Francisco, CA 94104-5401, US
+compliance@snapeda.com
+1-844-625-8890
+
+
+Notification from a copyright owner or from a person authorized to act on behalf of the copyright owner that fails to comply substantially with the provisions above shall not be considered as providing actual knowledge or an awareness of facts or circumstances from which infringing or otherwise unauthorized activity is apparent.
+
+For clarity, only DMCA notices should go to the Copyright Agent; any other feedback, comments, requests for technical support, and other communications should be directed to customer support at info@snapeda.com.
+
+16.3        Counter-Notice: If you believe that your Content that was removed (or to which access was disabled) is not infringing, or that you have the authorization from the copyright owner, the copyright owner's agent, or pursuant to the applicable Law, to post and use the material in your Content, you may send a counter-notice containing the following information to the Copyright Agent:
+
+(a)            Your physical or electronic signature;
+
+(b)            Identification of the Content that has been removed or to which access has been disabled and the location at which the Content appeared before it was removed or disabled;
+
+(c)             A statement that you have a good faith belief that the Content was removed or disabled as a result of mistake or a misidentification of the Content; and
+
+(d)            Your name, address, telephone number, and e-mail address, a statement that you consent to the jurisdiction of the federal court in San Francisco, California, and a statement that you will accept service of process from the person who provided notification of the alleged infringement.
+
+If a counter-notice is received by the Copyright Agent, SnapMagic Search may send a copy of the counter-notice to the original complaining party informing that person that it may replace the removed Content or cease disabling it in ten (10) business days. Unless the copyright owner files an action seeking a court order against the Content provider, member or user, the removed Content may be replaced, or access to it restored, in ten (10) to fourteen (14) business days or more after receipt of the counter-notice, at SnapMagic Search's sole discretion.
+
+17           FEES
+
+17.1        Some of the Site, Site Materials, services, and support we provide you are in exchange for the fees set out on the applicable invoice ("Fees") and you are liable to pay for such Fees. You agree there may be fees to use parts of the Site, Site Materials, services, or support. If fees apply, you agree (ii) to only use the Site, Site Materials, services, or support as set out on your invoice and for which you have paid Fees, (iii) to prepay the Fees and applicable taxes on an annual basis, (iv) that SnapMagic Search, or our third party providers, who store your payment card information are authorized to charge your payment card the Fees, (v) that if the payment card you provide expires and you do not provide new payment card information or cancel your account, you authorize us to continue billing you and you agree to remain responsible for any uncollected Fees, and (vi) the cost of the Site, Site Materials, services, and support may change from time to time.
+
+18           OWNERSHIP
+
+18.1        You hereby acknowledge that the Site and Site Materials are or may be protected by Laws, treaties, and conventions governing Intellectual Property. Any rights not expressly granted herein are hereby reserved by SnapMagic Search and its licensors and suppliers. Except for your Submissions, SnapMagic Search and/or its licensors and suppliers are the sole and exclusive owners of all Intellectual Property Rights in and to the Site and Site Materials. Marks displayed on the Site (such as, but not limited to, SnapMagic Search and InstaPart) are the Intellectual Property Rights of SnapMagic Search. For the avoidance of doubt, and except for the Submission License, you retain ownership of all Intellectual Property Rights in and to your Submissions.
+
+19           DISCLAIMER OF WARRANTIES
+
+19.1        THE SITE AND SITE MATERIALS (WHICH, FOR THE AVOIDANCE OF DOUBT, MAY INCLUDE SUBMISSIONS AND THIRD PARTY MATERIALS), AS WELL AS ANY OTHER ITEMS PROVIDED OR MADE AVAILABLE BY SnapMagic Search, ARE PROVIDED AND MADE AVAILABLE TO YOU ON AN "AS IS", "AS AVAILABLE", AT YOUR OWN RISK, BASIS AND WITH ALL FAULTS, WITHOUT ANY REPRESENTATION, WARRANTY, GUARANTEE OR CONDITION OF ANY KIND WHATSOEVER, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUALITY OF SERVICE, NON-INFRINGEMENT, REGARDING LATENT DEFECTS, OR THAT OTHERWISE ARISE FROM A COURSE OF PERFORMANCE OR DEALING, OR USAGE OF TRADE, ALL OF WHICH ARE HEREBY DISCLAIMED BY SnapMagic Search AND ITS SUPPLIERS. SnapMagic Search will have no responsibility for any harm to your computer system, loss or corruption of data, or other harm that results from your access to or use of the Site or Site Materials.
+
+19.2        YOU ARE SOLELY RESPONSIBLE FOR THE ACCURACY AND APPROPRIATENESS OF YOUR SUBMISSIONS AND ALL ACCOMPANYING DATA. WE WILL NOT BE HELD RESPONSIBLE FOR INACCURATE INFORMATION AND ANY POTENTIAL DAMAGES CAUSED BY SUCH INACCURACIES. YOU UNDERSTAND THAT WE MAY NOT MAINTAIN COPIES OF YOUR SUBMISSIONS AND THAT YOU ARE SOLELY RESPONSIBLE FOR BACKING UP YOUR SUBMISSIONS.
+
+19.3        SnapMagic Search, OUR AFFILIATES, SUBSIDIARIES, AGENTS, SUCCESSORS, ASSIGNS, THIRD PARTY PROVIDERS, LICENSORS, AND SUPPLIERS MAKE NO REPRESENTATION, WARRANTY, GUARANTEE OR CONDITION:
+
+(a)            REGARDING THE CONTENT, EFFECTIVENESS, USEFULNESS, RELIABILITY, AVAILABILITY, TIMELINESS, ACCURACY, OR COMPLETENESS OF THE SITE AND SITE MATERIALS;
+
+(b)            THAT THE SITE AND SITE MATERIALS ARE APPROPRIATE OR AVAILABLE FOR USE IN ALL GEOGRAPHIC LOCATIONS.
+
+(c)             THAT YOUR USE OF THE SITE AND SITE MATERIALS WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS, OR WILL BE INTERRUPTED, SECURE OR ERROR-FREE.
+
+19.4        NEITHER THE COMPANY NOR ANY THIRD PARTY PROVIDERS, PARTNERS, OR AFFILIATES WARRANT THAT THE SITE AND SITE MATERIALS, OR ANY E-MAIL SENT FROM THE SITE OR ANY THIRD PARTY PROVIDERS, PARTNERS, OR AFFILIATES ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+
+19.5        THIS AGREEMENT TERMS APPLY SOLELY TO THE SITE. WE ARE NOT RESPONSIBLE FOR THIRD PARTY WEBSITES. YOUR ACCESS OR USE OF ANY THIRD PARTY SITE IS GOVERNED BY ANY APPLICABLE TERMS AND CONDITIONS FOR THE THIRD PARTY SITE.
+
+19.6        Some jurisdictions may not allow the disclaimer of certain implied warranties or conditions, and to the extent applicable to you, SnapMagic Search limits the duration of such warranties and conditions to the duration of ninety (90) days from the Effective Date.
+
+19.7        You acknowledge and agree that this Section (Disclaimer of Warranties) is an essential basis of the bargain between you and SnapMagic Search.
+
+20           INDEMNIFICATION
+
+20.1        In the event of any third party demand, claim, suit, action, and/or proceeding against SnapMagic Search, a SnapMagic Search Content Affiliate, our subsidiaries, agents, successors, assigns, third party providers, and/or any of the foregoing entities' respective directors, officers, employees, agents, representatives, customers, suppliers, or licensors (each, an "Indemnitee"), and it is based upon or arises from your:
+
+(a)            use of the Site or Site Materials (or part thereof);
+
+(b)            breach of any provision of this Agreement; and/or
+
+(c)             violation of any Law applicable to you.
+
+(each of the foregoing, a "Claim") then, upon written request by SnapMagic Search (to be decided in its sole discretion), you agree to assume full control of the defense and settlement of the Claim; provided, however, that (a) SnapMagic Search and any Indemnitee reserves the right, at any time thereafter, to take over full or partial control of the defense and/or settlement of the Claim; and (b) you shall not settle any Claim, or admit to any liability thereunder, without the prior express written consent of SnapMagic Search.
+
+20.2        Regardless of whether (or the extent to which) you participated in the defense and/or settlement of a Claim, you agree to indemnify and hold harmless the Indemnitee for and against: (a) any costs and expenses (including without limitation reasonable attorneys' fees) incurred by the Indemnitee in the defense of such Claim; and (b) any amounts awarded against, or imposed upon, the Indemnitee under such Claim, or otherwise paid in settlement of the Claim (including without limitation damages, losses, liabilities, and fines).
+
+21           LIMITATION OF LIABILITY
+
+21.1        IN NO EVENT WILL SnapMagic Search OR ANY SnapMagic Search CONTENT AFFILIATE (EXPRESSLY A THIRD PARTY BENEFICIARY OF THIS SECTION 21), OUR SUBSIDIARIES, AGENTS, SUCCESSORS, ASSIGNS, THIRD PARTY PROVIDERS, AND/OR ANY OF THE FOREGOING ENTITIES' RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, REPRESENTATIVES, CUSTOMERS, SUPPLIERS, OR LICENSORS BE RESPONSIBLE OR LIABLE UNDER, OR OTHERWISE IN CONNECTION WITH THIS AGREEMENT, FOR:
+
+(a)            ANY CONSEQUENTIAL, INDIRECT, SPECIAL, INCIDENTAL, OR PUNITIVE DAMAGES;
+
+(b)            ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF REVENUE, OR LOSS OF ANTICIPATED SAVINGS;
+
+(c)             ANY LOSS OF, OR DAMAGE TO, DATA, REPUTATION, OR GOODWILL; AND/OR
+
+(d)            THE COST OF PROCURING ANY SUBSTITUTE GOODS OR SERVICES.
+
+21.2        THE COMBINED AGGREGATE LIABILITY OF SnapMagic Search AND ALL SnapMagic Search CONTENT AFFILIATES UNDER, OR OTHERWISE IN CONNECTION WITH, THIS AGREEMENT SHALL NOT EXCEED THE TOTAL AMOUNT OF FEES RECEIVED BY SnapMagic Search FROM YOU IN THE PREVIOUS TWELVE (12) MONTHS.
+
+21.3        THE FOREGOING EXCLUSIONS AND LIMITATIONS SHALL APPLY: (a) EVEN IF SnapMagic Search OR ANY SnapMagic Search CONTENT AFFILIATE HAS BEEN ADVISED, OR SHOULD HAVE BEEN AWARE, OF THE POSSIBILITY OF LOSSES, DAMAGES, OR COSTS; (b) EVEN IF ANY REMEDY IN THIS AGREEMENT FAILS OF ITS ESSENTIAL PURPOSE; AND (c) REGARDLESS OF THE THEORY OR BASIS OF LIABILITY (INCLUDING WITHOUT LIMITATION BREACH OF CONTRACT, TORT, NEGLIGENCE, AND STRICT LIABILITY).
+
+21.4        Some jurisdictions may not allow the exclusion or limitation of incidental or consequential damages, or of other damages, and to the extent applicable to you, such exclusions and limitations shall not apply.
+
+21.5        YOU ACKNOWLEDGE AND AGREE THAT THIS SECTION 21 (LIMITATION OF LIABILITY) IS AN ESSENTIAL BASIS OF THE BARGAIN BETWEEN YOU AND SnapMagic Search. YOU FURTHER ACKNOWLEDGE AND AGREE THAT ANY CAUSE OF ACTION THAT YOU MAY HAVE UNDER, OR OTHERWISE IN CONNECTION WITH, THIS AGREEMENT MUST COMMENCE WITHIN THIRTY (30) DAYS OF YOU BECOMING AWARE (OR THE DATE ON WHICH YOU SHOULD REASONABLY HAVE BECOME AWARE) OF THE CAUSE OF ACTION. OTHERWISE, YOU AGREE THAT SUCH CAUSE OF ACTION SHALL BE DEEMED PERMANENTLY BARRED.
+
+22           GOVERNING LAW AND JURISDICTION
+
+22.1        This Agreement is made and shall be construed under (and governed by) the laws of the State of California, USA without regard to any conflicts of laws rules or principles. The United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement and is hereby waived and disclaimed. Any claim, dispute or controversy under, or otherwise in connection with, this Agreement shall be subject to the exclusive jurisdiction and venue of the courts located in San Francisco, California, and you hereby irrevocably and unconditionally submit to the personal jurisdiction of such courts and waive any jurisdictional, improper venue, inconvenient forum, or other objections to such jurisdiction and venue. Furthermore, you:
+
+(a)            Agree that any proceedings to resolve or litigate any claim, dispute or controversy will be conducted solely on an individual basis (and not in any class action or class-wide proceeding), and that you may initiate such proceedings only on its own behalf;
+
+(b)            Hereby irrevocably and unconditionally waive the right to litigate such claims, disputes, or controversies in court before a jury; and
+
+(c)             Agree not to participate in claims, disputes, or controversies brought in an attorney general or representative capacity, or in consolidated claims, disputes, or controversies involving another person's access to or use of the Site.
+
+22.2        Notwithstanding anything in this Agreement to the contrary, SnapMagic Search may seek injunctive relief, specific performance, and/or other equitable relief in any court worldwide that has competent jurisdiction.
+
+23           GENERAL
+
+23.1        Severability: Should any provision of this Agreement be held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, then: (a) the remaining provisions of this Agreement shall, to the maximum extent permitted, remain in full force and effect; and (b) any such affected provision shall be ineffective solely as to such jurisdiction (and only to the extent and for the duration of such invalidity, illegality, or unenforceability), and shall be substituted (in respect of such jurisdiction and with retroactive effect) with a valid, legal, and enforceable provision that most closely approximates the original legal intent and economic impact of such provision.
+
+23.2        Assignment: SnapMagic Search or its successors in interest may assign this Agreement (or any of its rights and obligations hereunder) without your consent and without notice. This Agreement is personal to you, and you may not assign this Agreement (or any of its obligations or rights hereunder) without SnapMagic Search's prior express written consent in a duly signed writing. Any prohibited assignment shall be null and void.
+
+23.3        Entire Agreement: The parties agree that this Agreement constitutes the entire and exclusive agreement between them with respect to the subject matter related hereto, and supersedes and replaces any and all prior or contemporaneous oral or written understandings and statements by the parties with respect to such subject matter.
+
+23.4        Failure to Enforce a Provision not a Waiver: SnapMagic Search's failure to enforce a provision is not a waiver of its right to do so later.
+
+23.5        Remedies: Unless otherwise expressly stated in this Agreement, no right or remedy conferred upon or reserved by any party under this Agreement is intended to be, or shall be deemed, exclusive of any other right or remedy under this Agreement, at law or in equity, but shall be cumulative of such other rights and remedies.
+
+23.6        Relationship: No communication relating to the subject matter hereof, and nothing in this Agreement, shall be deemed to create any employment, fiduciary, joint venture, agency, or other relationship between the parties.
+
+23.7        Waiver: Any alleged or actual failure or delay on the part of any party hereto in exercising any right or remedy under this Agreement shall not operate as a waiver thereof. No single or partial exercise of any such right or remedy shall preclude any other or further exercise thereof or the exercise of any other right or remedy. Any waiver of any right or remedy granted hereunder must be in writing (for waivers by you, emails will be acceptable; for waivers by SnapMagic Search, the writing must be duly signed by SnapMagic Search), and shall be valid only in the specific instance in which given.
+
+23.8        Notices: SnapMagic Search may send you notices by email, by regular mail, and/or via postings on the Site, which you agree shall be effective when so made. Except as stated otherwise in this Agreement or required by Law applicable to you, you agree to send all notices to SnapMagic Search, to info@SnapEDA.com.
+
+23.9        No Third Party Beneficiaries: Unless and to the extent expressly provided in this Agreement, there shall be no third party beneficiaries to this Agreement. You further acknowledge and agree that some of SnapMagic Search's suppliers and/or licensors may, in their agreements with SnapMagic Search, be entitled to enforce certain rights and usage restrictions against users of the Site and Site Materials, and, to that extent, such suppliers and licensors shall have the right to enforce such rights and restrictions directly against you.
+
+23.10     Legal Compliance. You agree to use the Site and the Site Materials only in compliance with all Laws applicable to you, including without limitation, copyright laws and export, import, and use laws and regulations of other countries. Without limiting the generality of the foregoing sentence, you must not use or otherwise export or re-export any Site or Site Materials except as authorized by any export and re-export control Laws applicable to you, as well as the United States' Export Administration Regulations (EAR) maintained by the US Department of Commerce, trade and economic sanctions maintained by the US Treasury Department's Office of Foreign Assets Control, and the International Traffic in Arms Regulations (ITAR) maintained by the US Department of State.
+
+23.11     Use of Printed Version in Court: A printed version of these Terms and of any related notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to these Terms to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form.
+
+23.12     Nature of Relationship: SnapMagic Search and you are not legal partners or agents; instead, our relationship is that of independent contractors.
+
+23.13     Force Majeure. SnapMagic Search shall not be responsible for any failure to perform any obligation or provide any service hereunder because of any (a) act of God, (b) war, riot or civil commotion, (c) governmental acts or directives, strikes, work stoppage, or equipment or facilities shortages, and/or (d) other similar cause beyond SnapMagic Search's reasonable control. For the avoidance of doubt, any problems relating to the hosting of the Site or Site Materials shall not be deemed within SnapMagic Search' reasonable control.
