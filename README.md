@@ -6,6 +6,10 @@ OpenRefMic is an open hardware design for a reference microphone that fits in th
 <br>
 <br>
 
+## OpenRefMic v2 Coming Soon™
+
+Version 2 will significantly improve the usability of the mic with integrated frequency response correction, improved PCB layout, and a simpler and more robust mechanical design.
+
 ## Critical specs, performance
 
 - Frequency Response: 10Hz-25kHz (±1dB after EQ)
