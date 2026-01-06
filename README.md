@@ -10,6 +10,8 @@ OpenRefMic is an open hardware design for a reference microphone that fits in th
 
 Version 2 will significantly improve the usability of the mic with integrated frequency response correction, improved PCB layout, and a simpler and more robust mechanical design.
 
+The KiCAD project, mechanical design, and most of the project output files have been updated to reflect the v2 improvements. At time of writing, PCBs and parts are on order, and construction and measurements will be updated when the full v2 design is assembled and tested.
+
 ## Critical specs, performance
 
 - Frequency Response: 10Hz-25kHz (±1dB after EQ)
@@ -30,7 +32,7 @@ Version 2 will significantly improve the usability of the mic with integrated fr
 <br>
 
 ## Project Overview
-The core of the OpenRefMic design is a preamplifier that biases an electret microphone from 48V phantom power and buffers the microphone signal to send it to a standard microphone interface. The circuit was designed for the [PUI AOM-5024L-HD-F-R](https://www.puiaudio.com/media/SpecSheet/AOM-5024L-HD-F-R.pdf) low noise microphone capsule, and has been built and tested with that part, but should work with most other electret mics. The schematic and PCB layout were done with KiCAD and are available in the [Preamplifier section](preamplifier/PREAMPLIFIER.md) of the project, along with the BOM for all electrical and mechanical parts.
+The core of the OpenRefMic design is a preamplifier that biases an electret microphone from 48V phantom power and buffers the microphone signal to send it to a standard microphone interface. The circuit was designed for the [PUI AOM-5024L-HD-F-R](https://puiaudio.com/file/specs-AOM-5024L-HD-F-R.pdf) low noise microphone capsule, and has been built and tested with that part, but should work with most other electret mics. The schematic and PCB layout were done with KiCAD and are available in the [Preamplifier section](preamplifier/PREAMPLIFIER.md) of the project, along with the BOM for all electrical and mechanical parts.
 
 <br>
 
