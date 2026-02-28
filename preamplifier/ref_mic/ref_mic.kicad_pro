@@ -81,7 +81,7 @@
           ""
         ],
         [
-          "silk_over_copper|146275799|101092353|844f01a0-ac23-4a99-910e-4e91c579bb2b|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|96400000|102500000|88a212f1-e48e-49b7-98c1-b15139d87bf9|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -157,7 +157,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -611,14 +611,14 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
+          "label": "LCSC_Part_Number",
+          "name": "LCSC_Part_Number",
           "show": true
         },
         {
           "group_by": false,
-          "label": "LCSC_Part_Number",
-          "name": "LCSC_Part_Number",
+          "label": "Package",
+          "name": "Package",
           "show": true
         },
         {
@@ -675,7 +675,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://loudifier single page.kicad_wks",
