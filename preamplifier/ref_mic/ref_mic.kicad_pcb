@@ -107,7 +107,7 @@
 		(allow_soldermask_bridges_in_footprints yes)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_5555555f_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -227,7 +227,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Nichicon UZG1E220MCL1GB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -687,7 +687,7 @@
 				)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Nichicon UZG1E220MCL1GB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1429,7 +1429,7 @@
 		(uuid "909d0bdd-8a15-40f2-9dfd-be4a5d2d6b25")
 		(at 152.3 101.3)
 		(property "Reference" "J2"
-			(at -2.64 -3.39 0)
+			(at -1.8 -3.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "67706877-8202-462a-994f-8d2480397daa")
@@ -4093,7 +4093,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Taiyo Yuden EMK325BJ226MD-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4281,7 +4281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4322,7 +4322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "YAGEO RC0402FR-07100RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4336,7 +4336,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey_Part_Number" "RC0402FR-0710RL"
+		(property "DigiKey_Part_Number" "RC0402FR-07100RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4794,7 +4794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "TI OPA4991IDR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5499,7 +5499,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "YAGEO AC0402FR-078K06L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6057,7 +6057,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Taiyo Yuden EMK325BJ226MD-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6300,7 +6300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Taiyo Yuden EMK325BJ226MD-T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7101,7 +7101,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Taiyo Yuden EMK325BJ226MD-T"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9945,7 +9945,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" "YAGEO RC0402FR-077K15L"
+		(property "LCSC_Part_Number" "YAGEO RC0402FR-074K7L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11379,7 +11379,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "Taiyo Yuden EMK325BJ226MD-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11804,7 +11804,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -11845,7 +11845,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC_Part_Number" ""
+		(property "LCSC_Part_Number" "YAGEO RC0402FR-07100RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11859,7 +11859,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DigiKey_Part_Number" "RC0402FR-0710RL"
+		(property "DigiKey_Part_Number" "RC0402FR-07100RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13237,6 +13237,26 @@
 		(uuid "526a8dfe-665f-4270-bd44-ff1532461824")
 	)
 	(gr_line
+		(start 148.75 105.1)
+		(end 148.85 105.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87c04b33-abda-4d63-b0e8-f9cdfc385270")
+	)
+	(gr_line
+		(start 149.1 104.7)
+		(end 148.475 104.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "964af695-deca-4aaf-86d3-2f0a22fcc7f6")
+	)
+	(gr_line
 		(start 95.7 98.8)
 		(end 95.7 99.5)
 		(stroke
@@ -13245,6 +13265,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "99d023fc-0264-4b46-8102-01fbceef267e")
+	)
+	(gr_line
+		(start 148.6 104.9)
+		(end 148.975 104.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9e977b8d-46fa-4a7a-b781-284d919726e1")
 	)
 	(gr_line
 		(start 96 99.5)
@@ -13265,6 +13295,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bd02388c-bbe8-4ed4-a0ae-a6275a3ea0e0")
+	)
+	(gr_line
+		(start 148.8 104)
+		(end 148.8 104.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c69ed5c9-67fd-4d29-88db-538189305b1c")
 	)
 	(gr_poly
 		(pts
@@ -13967,6 +14007,36 @@
 		(layer "F.CrtYd")
 		(uuid "de69c19b-35de-47f1-843e-08fb79f1eae2")
 	)
+	(gr_line
+		(start 119 92.5)
+		(end 121 92.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "026bf876-43f4-43c4-884c-bfd1d0d6b802")
+	)
+	(gr_line
+		(start 120 71)
+		(end 120 92.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "21e78a42-98e5-446c-83c9-7aa83afd4aad")
+	)
+	(gr_line
+		(start 119 71)
+		(end 121 71)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7079bcc0-92f2-4664-a87a-e7e833ae8d56")
+	)
 	(gr_text "MICBIAS"
 		(at 98.1 104.2 0)
 		(layer "F.SilkS")
@@ -13974,6 +14044,18 @@
 		(effects
 			(font
 				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 148.1 98.6 0)
+		(layer "F.SilkS")
+		(uuid "c27e9ca4-db6a-4428-ab90-4eab7850078b")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left bottom)
@@ -13989,6 +14071,18 @@
 				(thickness 0.25)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+"
+		(at 149.3 100.2 0)
+		(layer "B.SilkS")
+		(uuid "3db6f936-7f91-4dd7-8019-6eb9b292c89c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "v2"
@@ -14025,6 +14119,54 @@
 				(thickness 0.25)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "1.2mm total"
+		(at 109.25 71.75 0)
+		(layer "F.Fab")
+		(uuid "0868c721-0996-433e-959e-ba8287dd7590")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Top Silkscreen\nTop Solder Paste\nTop Solder Mask\nTop Copper - Signal\nPrepreg\nInner Copper 1 - GND\nCore\nInner Copper 2 - VGND\nPrepreg\nBottom Copper - Signal\nBottom Solder Mask\nBottom Solder Paste\nBottom Silkscreen"
+		(at 121 92 0)
+		(layer "F.Fab")
+		(uuid "13a3aa8d-1860-4025-9d5c-e50595b82273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "\n\n0.010mm\n0.035mm\n0.210mm\n0.015mm\n0.600mm\n0.015mm\n0.210mm\n0.035mm\n0.010mm"
+		(at 119 88.75 0)
+		(layer "F.Fab")
+		(uuid "cef8b060-f544-4d3e-9d87-3a182b6fabab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "Maximum board thickness: 1.5mm\nTypical stackup:"
+		(at 109 69.25 0)
+		(layer "F.Fab")
+		(uuid "ee5d8d88-9887-4726-b844-d8e2816065cd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
 		)
 	)
 	(via

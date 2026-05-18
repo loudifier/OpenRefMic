@@ -1,6 +1,6 @@
 # Preamplifier
 
-A high performance mic element determines the majority of the acoustic characteristics of a measurement microphone, but for the hobbyist or experimenter on a budget, actually powering and getting a useful signal from the mic element can be difficult. A power supply with low acoustic and electrical noise is required, as well as a data acquisistion system that can capture the full dynamic range of the transducer, particularly the lowest signal levels. Modern consumer or "pro audio" equipment (not to be confused with "professional" equipment for measuring products in development against telephony standards, etc.) is available with excellent performance and very affordable pricing, but cannot directly power an electret mic or get an optimal signal level from it.
+A high performance mic element determines the majority of the acoustic characteristics of a measurement microphone, but for the hobbyist or experimenter on a budget, actually powering and getting a useful signal from the mic element can be difficult. A power supply with low acoustic and electrical noise is required, as well as a data acquisistion system that can capture the full dynamic range of the transducer, particularly the lowest signal levels. Modern consumer or "pro audio" equipment (not to be confused with "professional" equipment for measuring products under development against telephony standards, for example) is available with excellent performance and very affordable pricing, but cannot directly power an electret mic or get an optimal signal level from it.
 
 The preamplifier is the heart of the OpenRefMic project, powering an electret microphone from a standard 48V phantom power supply, correcting the capsule frequency response, and buffering the mic signal to drive a typical low impedance microphone input.
 
@@ -12,6 +12,12 @@ The preamplifier schematic in PDF format can be found [here](OpenRefMic_v2-schem
 
 ![PCB](../img/pcb.jpg)
 
+### PCB thickness
+
+Note that the OpenRefMic v2 PCB design uses a mini XLR connector with the terminals soldered to either side of the PCB. A standard 1.6mm/63mil PCB is slightly too thick to fit beteen the terminals of the connector, so a thinner stackup is required. The next common size down from typical vendors like JLCPCB is 1.2mm, which has been tested and works well on the v2 prototype mics.
+
+![PCB between mini XLR connector pins](../img/pcb-between-pins.png)
+
 <br>
 
 ## Circuit description
@@ -22,9 +28,9 @@ The preamplifier schematic in PDF format can be found [here](OpenRefMic_v2-schem
 
 Phantom power is supplied from the host microphone interface in the form of 48VDC connected to each signal line of the balanced cable via 6.81k resistors. The OpenRefMic preamplifier creates two power rails from the phantom power with simple Zener shunt voltage regulators.
 
-The opamp power rail is fed from the phantom power supply through R18 and R19. The actual opamp supply voltage depends on the opamp current draw and the VGND voltage divider formed by R20 and R21, and C11-C14 provide bulk capacitance and low AC impedance for the VGND. OPA4991 is recommended for its low noise and low quiescent current, resulting in an opamp supply rail around 18V. When power is applied or in the event the opamp current draw is very low or missing, D2 clamps the opamp supply rail to 24V.
+The opamp power rail is fed from the phantom power supply through R18 and R19. The actual opamp supply voltage depends on the opamp current draw and the VGND voltage divider formed by R20 and R21, and C11-C14 provide bulk capacitance and low AC impedance for the VGND. OPA4991 is recommended for its low noise and low quiescent current, resulting in an opamp supply rail around 18V. When power is applied, or in the event the opamp current draw is very low or missing, D2 clamps the opamp supply rail to 24V.
 
-D1 and D4 protect the opamp when phantom power is initially applied. When all of the capacitors are discharged and phantom power is turned on it will briefly apply 48V to the opamp output, until the AC-coupling caps charge up. The diodes instead shunt the voltage at the opamp output to the opamp supply rail, which is shunted through D2.
+D1 and D4 protect the opamp when phantom power is initially applied. When all of the capacitors are discharged and phantom power is turned on, it would briefly apply 48V to the opamp output, until the AC-coupling caps charge up. Instead, the D1 and D4 shunt the voltage at the opamp output to the opamp supply rail, and any voltage at the supply rail over 24V is in turn shunted through D2.
 
 The electret mic bias voltage is fed from the power supply through R22 and R23, with D3 and C15 regulating the shunt voltage.
 
@@ -44,19 +50,20 @@ R15, C10, and R17 appear useless at first glance, but are present to match the i
 
 ### Frequency response correction filters
 
-The AOM-5024L-HD-F-R mic capsule has a very low noise floor, but deviates from a flat frequency response at higher frequencies. This response is consistent, and can be flattened out with a carefully arranged filter network. That correction can often be applied as a postprocessing step (see [calibration](../calibration/CALIBRATION.md)), but v2 of the OpenRefMic preamplifier includes an analog filter netowrk that can correct the response for situations where postprocessing is cumbersome or impossible.
+The AOM-5024L-HD-F-R mic capsule has a very low noise floor, but deviates from a flat frequency response at higher frequencies. This response is fairly consistent, and can be corrected to within a couple dB of flat with a carefully arranged filter network. That correction can often be applied as a postprocessing step (see [calibration](../calibration/CALIBRATION.md)), but v2 of the OpenRefMic preamplifier includes an analog filter netowrk that can correct the response for situations where postprocessing is cumbersome or impossible.
 
-The AOM-5024L-HD-F-R response has a resonant peak around 5.5kHz with an attenuated high shelf that flattens out above 14kHz. The high shelf response is corrected by summing a highpassed copy of the micropohne signal with the unfiltered micropohne signal. That leaves a notch that is then corrected by adding an additional bandpassed copy of the signal.
+The AOM-5024L-HD-F-R response has a resonant peak around 5.5kHz with an attenuated high shelf that flattens out above 14kHz. The high shelf response is corrected by summing a highpassed copy of the micropohne signal (which has inverted polarity at high frequencies) with the unfiltered microphone signal. That leaves a notch in the response, which is corrected by adding an additional bandpassed copy of the signal.
 
 <!--TODO: add graphs for raw and corrected response and individual filters-->
 
-The highpass response is realized with a Sallen-Key filter around U1A, and the bandpass response is formed by a multiple feedback bandpass filter around U1B. U1C acts as an inverting mixer, with R10-R13 adjusting the gain/mixing ratios of the filtered and unfiltered signals. This means the phase of the overall microphone response with frequency response correction is inverted, relative to the microphone capsule phase. This is usually easily corrected in hardware or software that expects microphone inputs for measurement, mixing, or recording.
+The highpass response is realized with a Sallen-Key filter around U1A, and the bandpass response is formed by a multiple feedback bandpass filter around U1B. U1C acts as an inverting mixer, with R10-R13 adjusting the gain/mixing ratios of the filtered and unfiltered signals. This means the phase of the overall microphone response with frequency response correction is inverted, relative to the microphone capsule phase. This is usually easily corrected with a single button in hardware or software interfaces designed to receive microphone input.
 
-The exact filter parameters and component values were arrived at through simulation, filter calulators, and an iterative optimization script to minimize deviations from a flat response in the filtered AOM-5024L-HD-F-R response.
+The exact filter parameters and component values were arrived at through simulation, filter calulators, and an optimization script to fit the filters to a target correction curve. See the [calibration section](../calibration/CALIBRATION.md) for details on the filter optimization process.
 
 S1 allows selection between the raw microphone signal and the microphone signal with frequency response correction applied.
 
 ## Alternate filter configurations
+note: these screenshots were made with an earlier version of the schematic that used incorrect filter component values
 
 ### No filter, true balanced output
 If you are using the OpenRefMic preamplifier with a different mic capsule that does not need frequency response correction, you can eliminate the filter blocks and filter bypass switch.

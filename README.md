@@ -1,40 +1,54 @@
 # OpenRefMic
+
+[![Static Badge](https://img.shields.io/badge/open_source-hardware-0099B0?logo=opensourcehardware)](https://oshwa.org/)
+
 OpenRefMic is an open hardware design for a reference microphone that fits in the popular 1/2" reference microphone form factor, works with consumer microphone interfaces, and meets or exceeds the performance of professional reference microphones at a vastly reduced total system cost.
 
 ![OpenRefMic](img/mic-header-photo.jpg)
 
 <br>
+
+## OpenRefMic v2
+
+OpenRefMic version 2 significantly improves the usability of the mic, with integrated frequency response correction, improved PCB layout, and a simpler and more robust mechanical design.
+
+![v2 improvements](img/v2-improvements.jpg)
+
 <br>
 
-## OpenRefMic v2 Coming Soon™
+## Critical specs, typical performance
 
-Version 2 will significantly improve the usability of the mic with integrated frequency response correction, improved PCB layout, and a simpler and more robust mechanical design.
-
-The KiCAD project, mechanical design, and most of the project output files have been updated to reflect the v2 improvements. At time of writing, PCBs and parts are on order, and construction and measurements will be updated when the full v2 design is assembled and tested.
-
-## Critical specs, performance
-
-- Frequency Response: 10Hz-25kHz (±1dB after EQ)
-- Noise Floor: 18dBA
+- Frequency Response: 10Hz-20kHz
+    - ±1dB from 10Hz 2.5kHz
+    - +4-7dB 10Hz-20kHz raw capsule response
+    - ±2dB 10Hz-20kHz with integrated EQ filter
+- Noise Floor: 17dBA
 - Acoustic Overload Point: 118dBSPL
-- Dimensions: 12.7x99mm
-- Parts cost: $40 (not including 3D printed parts)
+- Sensitivity: 100mV/Pa
+- Dimensions: 12.7x92mm
+- Parts cost: $50 (not including 3D printed parts)
 - Interface: mini-XLR, 48V phantom power
-- Total system cost: <$250 (with Focusrite Scarlett 2i2)
 
 ![normalized frequency response](img/normalized-response.png)
 
 ![noise floor spectrum](img/noise-spectrum-comparison.png)
 
-<!--TODO: update graphs for v2-->
-
-<!--TODO: table with comparison to B&K 4191 and Dayton EMM-6-->
-
 <br>
+
+### 1/2" microphone comparison
+
+| Mic             | Interface                   | Frequency Response (20-20k)   | Noise Floor | AOP      | Price               |
+|-----------------|-----------------------------|-------------------------------|-------------|----------|---------------------|
+| OpenRefMic      | 48V phantom power, mini XLR | +3/-7dB (±2dB with EQ)        | 17dBA       | 118dBSPL | Typically <$60      |
+| Dayton EMM-6    | 15-48V phantom power, XLR   | ±2dB                          | 36dBA       | 127dBSPL | $60                 |
+| MiniDSP U-MIK 2 | USB-C                       | Not specified (likely ±2dB)   | 20dBA       | 125dBSPL | $195 + import       |
+| B&K 4191        | 200V Lemo                   | <±1dB                         | 20dBA       | 162dBSPL | Ask for price ($$$) |
+| GRAS 46AE       | CCP BNC                     | ±2dB                          | 17dBA       | 138dBSPL | Ask for price ($$$) |
+
 <br>
 
 ## Project Overview
-The core of the OpenRefMic design is a preamplifier that biases an electret microphone from 48V phantom power, buffers the microphone signal, applies a frequency response correction filter, and to sends the signal to a standard microphone interface. The circuit was designed for the [PUI AOM-5024L-HD-F-R](https://puiaudio.com/file/specs-AOM-5024L-HD-F-R.pdf) low noise microphone capsule, and has been built and tested with that part, but should work with most other electret mics. The schematic and PCB layout were done with KiCAD and are available in the [Preamplifier section](preamplifier/PREAMPLIFIER.md) of the project, along with the BOM for all electrical and mechanical parts.
+The core of the OpenRefMic design is a preamplifier that biases an electret microphone from 48V phantom power, buffers the microphone signal, applies a frequency response correction filter, and to sends the signal to a standard microphone interface. The circuit was designed for the [PUI AOM-5024L-HD-F-R](https://puiaudio.com/file/specs-AOM-5024L-HD-F-R.pdf) low noise microphone capsule, and has been built and tested with that part, but should work with most other electret mics. The schematic and PCB layout were designed in KiCAD and are available in the [Preamplifier section](preamplifier/PREAMPLIFIER.md) of the project, along with the [BOM for all electrical and mechanical parts](Bill_of_materials.csv).
 
 <br>
 
@@ -94,4 +108,4 @@ Specialized shapes for specific applications are left up to individual builders,
 ### Further goals
 
 - The initial design is based around the PUI AOM-5024L-HD-F-R electret microphone capsule, but designs for additional capsules that trade noise performance for frequency response flatness will be added in the future. The preamplifier as-shown should work with a wide variety of electret mics, and component values can be adjusted for optimal performance or compatibility with analog MEMS mics.
-- Currently, the prototype OpenRefMic is calibrated against a known reference microphone, a B&K 4191 1/2" Free-Field mic. While the frequency response of another builder's OpenRefMic should be fairly predictable, the absolute sensitivity could vary considerably, depending on component tolerances in the preamp and the voltage sensitivity of their microphone interface. Professional measurement microphones are calibrated in the field with a pistonphone, a device that you insert the microphone tip into, which generates a tone with a precise frequency and sound pressure level that is consistent for a given sealed air volume. If you have any ideas for a device that could replicate this functionality, or otherwise accurately generate or measure a sound pressure level in order to calibrate an OpenRefMic, please reach out.
+- OpenRefMic prototypes have had normalized frequency respone within ±2dB up to 20kHz, which is typical for commercial measurement microphones. However, absolute sensitivity varies by up to ±3dB, which could introduce significant error in SPL measurements. Professional measurement microphones are calibrated in the field with a pistonphone, a device that you insert the microphone tip into, which generates a tone with a precise frequency and sound pressure level that is consistent for a given sealed air volume. If you have any ideas for a device that could replicate this functionality, or otherwise accurately generate or measure a sound pressure level in order to calibrate an OpenRefMic, please reach out.

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.0"
     },
-    "CreationDate": "2026-02-16T12:31:50-08:00"
+    "CreationDate": "2026-05-10T02:13:21-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -92,6 +92,16 @@
     {
       "Path": "ref_mic-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ref_mic-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ref_mic-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
