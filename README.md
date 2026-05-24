@@ -42,6 +42,7 @@ OpenRefMic version 2 significantly improves the usability of the mic, with integ
 | OpenRefMic      | 48V phantom power, mini XLR | +3/-7dB (±2dB with EQ)        | 17dBA       | 118dBSPL | Typically <$60      |
 | Dayton EMM-6    | 15-48V phantom power, XLR   | ±2dB                          | 36dBA       | 127dBSPL | $60                 |
 | MiniDSP U-MIK 2 | USB-C                       | Not specified (likely ±2dB)   | 20dBA       | 125dBSPL | $195 + import       |
+| PCB 376A32      | 12-48V phantom power, XLR   | ±2dB                          | 15.5dBA     | 137dBSPL | $1,445              |
 | B&K 4191        | 200V Lemo                   | <±1dB                         | 20dBA       | 162dBSPL | Ask for price ($$$) |
 | GRAS 46AE       | CCP BNC                     | ±2dB                          | 17dBA       | 138dBSPL | Ask for price ($$$) |
 
@@ -52,13 +53,12 @@ The core of the OpenRefMic design is a preamplifier that biases an electret micr
 
 <br>
 
-OpenRefMic construction is simple, consisting of a 3D printed housing, the PCB, mic capsule, screw/nut, and optionally an O-ring and dab of UV cure glue. CAD in Fusion360 and STEP formats are in the [Construction section](assembly/CONSTRUCTION.md), along with STLs for the printed parts and a step-by-step construction guide.
+OpenRefMic construction is simple, consisting of a 3D printed housing, the PCB, mic capsule, screw/nut, and optionally an O-ring and dab of UV cure glue. CAD in Fusion360 and STEP formats are in the [Assembly section](assembly/ASSEMBLY.md), along with STLs for the printed parts and a step-by-step construction guide.
 
 <br>
 
 The noise performance of the complete OpenRefMic prototype far exceeds that of comparably-priced measurement microphones, with a flat frequency response suitable as a reference microphone for measuring speakers, distortion, noise emissions, and capturing field recordings. Raw measurement data, compensation curves, and recommendations for applying calibrations to measurements and recordings are in the [Calibration section](calibration/CALIBRATION.md).
 
-<br>
 <br>
 
 ## Project Goals
