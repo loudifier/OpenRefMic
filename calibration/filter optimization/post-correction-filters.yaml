@@ -1,0 +1,73 @@
+# Filter Optimization Config
+
+# Sample rate in Hz
+sample_rate: 48000
+
+# Filter bank topology:
+#   "series"    - Cascaded biquads (signal passes through each filter in sequence)
+#   "parallel"  - Each filter processes the original signal independently, then results are summed with mix_gain
+topology: "series"
+
+# CSV files with frequency,magnitude_db columns (frequency on x-axis, dB on y-axis)
+target_csv: "target-correction-curve.csv"
+output_csv: "optimized_results.csv"
+output_plot: "optimization_result.png"
+
+optimization:
+  # Optimizer to use:
+  #   "adaptive_mc" - Monte Carlo with adaptive drift + Metropolis acceptance
+  #   "scipy"       - scipy.optimize (differential_evolution or local methods)
+  method: "scipy"
+
+  # Maximum iterations (adaptive_mc may stop early via patience)
+  iterations: 100000
+
+  # Fraction of the bounds range used for initial perturbation magnitude.
+  # Drift decays over iterations: initial_drift -> initial_drift * 0.01
+  # Only used by adaptive_mc.
+  initial_drift: 0.01
+
+  # Stop if best loss hasn't improved for this many consecutive iterations
+  early_stop_patience: 5000
+
+  # scipy optimizer to use when method=scipy:
+  #   "differential_evolution" (default), "Nelder-Mead", "L-BFGS-B", etc.
+  scipy_method: "differential_evolution"
+
+# Each filter entry has a type and its parameters.
+# Supported types: lowpass, highpass, bandpass, bandpass_skirt, notch,
+#                  lowshelf, highshelf, peaking, allpass, linkwitz, no_filt
+#
+# Parameter rules per type:
+#   lowpass/highpass/bandpass/bandpass_skirt/notch/allpass: freq, q
+#   lowshelf/highshelf/peaking: freq, q, gain (gain is in dB, applies to filter shape)
+#   linkwitz: f0, q0, fp, qp
+#   no_filt: no parameters (unfiltered passthrough branch)
+#
+# Parameter fields:
+#   initial - Starting value (required)
+#   fixed   - true to lock parameter, false to optimize (default: false)
+#   min/max - Search bounds (optional; defaults to initial*0.5 / initial*2.0)
+#             Only applies when fixed: false.
+#
+# mix_gain (parallel topology only):
+#   Linear scalar multiplier applied when summing this filter's output.
+#   NOT in dB. A value of 1.0 = unity, 2.0 = +6dB, 0.5 = -6dB.
+#   Can be negative for phase inversion / subtraction.
+#   Required for all filters in parallel topology, including no_filt.
+#   In series topology, mix_gain is ignored (all filters are cascaded).
+
+filters:
+  # Biquad filters to apply to recordings made with onboard EQ bypassed
+  # High shelf filter
+  - type: "highshelf"
+    freq: { initial: 9300,  fixed: false }
+    q:    { initial: 0.707, fixed: false }
+    gain: { initial: 7.5,   fixed: false }
+
+  # Peaking EQ filter
+  - type: "peaking"
+    freq: { initial: 5500, fixed: false }
+    q:    { initial: 1.2,  fixed: false }
+    gain: { initial: -5.5, fixed: false }
+     
