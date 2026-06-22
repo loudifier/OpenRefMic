@@ -129,13 +129,26 @@ class FilterSpec:
 
 
 class FilterBank:
-    def __init__(self, specs: list[FilterSpec], fs: float, topology: str = "parallel"):
+    def __init__(self, specs: list[FilterSpec], fs: float, topology: str = "parallel", global_gain_config: dict | None = None):
         self.specs = specs
         self.fs = fs
         self.topology = topology
         self.optimizable = []
         for spec in specs:
             self.optimizable.extend(spec.get_optimizable())
+
+        self._global_gain_default = 0.0
+        if global_gain_config:
+            self._global_gain_default = float(global_gain_config.get("initial", 0))
+            if not global_gain_config.get("fixed", False):
+                self.optimizable.append({
+                    "filter_index": "__global__",
+                    "param": "global_gain",
+                    "initial": self._global_gain_default,
+                    "min": float(global_gain_config.get("min", -20)),
+                    "max": float(global_gain_config.get("max", 20)),
+                })
+
         self._bounds = [(p["min"], p["max"]) for p in self.optimizable]
 
     @property
@@ -171,7 +184,14 @@ class FilterBank:
                 H = self._single_filter_response(b, a, freqs, self.fs)
                 total += H * gain
 
-        return 20 * np.log10(np.maximum(np.abs(total), 1e-12))
+        response_db = 20 * np.log10(np.maximum(np.abs(total), 1e-12))
+
+        global_gain_db = self._global_gain_default
+        gg = values_per_filter.get("__global__", {})
+        global_gain_db = gg.get("global_gain", global_gain_db)
+        response_db += global_gain_db
+
+        return response_db
 
     @staticmethod
     def _single_filter_response(b: np.ndarray, a: np.ndarray, freqs: np.ndarray, fs: float) -> np.ndarray:
@@ -338,6 +358,11 @@ def save_results(
                 opt = vals.get("mix_gain", init)
                 f.write(f"{fid},{spec.type},mix_gain,{init},{opt}\n")
 
+        gg_init = bank._global_gain_default
+        gg_vals = values_per_filter.get("__global__", {})
+        gg_opt = gg_vals.get("global_gain", gg_init)
+        f.write(f"__global__,global_gain,global_gain,{gg_init},{gg_opt}\n")
+
         f.write("\nfrequency,initial_db,optimized_db\n")
         for fr, init, opt in zip(target_freqs, initial_response, opt_response):
             f.write(f"{fr},{init},{opt}\n")
@@ -406,8 +431,16 @@ def main():
     target_mags = target_mags[mask]
     print(f"Using {len(target_freqs)} frequency points up to {nyquist_cutoff:.0f} Hz (0.9 × Nyquist)")
 
+    input_mags = np.zeros_like(target_freqs)
+    if "input_csv" in config:
+        input_freqs, input_mags_raw = load_csv_response(config["input_csv"])
+        input_mags = np.interp(target_freqs, input_freqs, input_mags_raw)
+        print(f"Loaded input response from {config['input_csv']}")
+        target_mags = target_mags - input_mags
+
+    global_gain_config = config.get("global_gain")
     specs = [FilterSpec(fc, topology) for fc in config["filters"]]
-    bank = FilterBank(specs, fs, topology)
+    bank = FilterBank(specs, fs, topology, global_gain_config)
 
     if method == "adaptive_mc":
         best = optimize_adaptive_mc(bank, target_freqs, target_mags, iterations, initial_drift, patience)
@@ -417,18 +450,21 @@ def main():
         print(f"Unknown optimization method: {method}")
         sys.exit(1)
 
-    opt_response = bank.frequency_response(best, target_freqs)
+    opt_filter_response = bank.frequency_response(best, target_freqs)
     initial_params = np.array([p["initial"] for p in bank.optimizable])
-    initial_response = bank.frequency_response(initial_params, target_freqs)
+    initial_filter_response = bank.frequency_response(initial_params, target_freqs)
 
-    initial_loss = float(np.sum(np.abs(target_mags - initial_response)))
-    final_loss = float(np.sum(np.abs(target_mags - opt_response)))
+    initial_total = initial_filter_response + input_mags
+    opt_total = opt_filter_response + input_mags
+
+    initial_loss = float(np.sum(np.abs(target_mags - initial_filter_response)))
+    final_loss = float(np.sum(np.abs(target_mags - opt_filter_response)))
     print(f"\nInitial loss: {initial_loss:.4f} -> Final loss: {final_loss:.4f}")
 
-    save_results(output_path, bank, best, target_freqs, initial_response, opt_response)
+    save_results(output_path, bank, best, target_freqs, initial_total, opt_total)
 
     if plot_path:
-        save_plot(plot_path, target_freqs, target_mags, target_freqs, initial_response, target_freqs, opt_response)
+        save_plot(plot_path, target_freqs, target_mags + input_mags, target_freqs, initial_total, target_freqs, opt_total)
 
     print("\nOptimized parameters:")
     values = bank.decode_params(best)
@@ -445,6 +481,14 @@ def main():
             opt = vals.get("mix_gain", init)
             fixed_str = " [fixed]" if spec.mix_gain["fixed"] else ""
             print(f"    mix_gain: {init:.6f} -> {opt:.6f}{fixed_str}")
+
+    if global_gain_config is not None:
+        gg_init = bank._global_gain_default
+        gg_vals = values.get("__global__", {})
+        gg_opt = gg_vals.get("global_gain", gg_init)
+        gg_fixed = global_gain_config.get("fixed", False)
+        fixed_str = " [fixed]" if gg_fixed else ""
+        print(f"\n  global_gain: {gg_init:.6f} -> {gg_opt:.6f}{fixed_str}")
 
 
 if __name__ == "__main__":
