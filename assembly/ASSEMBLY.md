@@ -86,6 +86,8 @@ Insert the mic capsule pins into the opening in the front of the mic body. There
 
 ## Mini-XLR adapter
 
+Note: Standard size XLR connectors have a standard pinout, but mini XLR pinout sometimes varies, depending on the connector manufacturer and original application that the connector was intended for. Specifically, the Switchcraft TA3/TB3 used for OpenRefMic swaps the positions of pins 2 and 3 relative to the full size XLR pinout. This is the most common mini XLR pinout, but double check your particular adapter or connector pinout if you build your own adapter.
+
 The last piece of assembly is an adapter to connect the mini-XLR OpenRefMic to a standard XLR input. Commercial adapters are available, but are difficult to find and expensive. Creating your own adapter is as simple as removing the full size female XLR connector from a standard microphone cable and replacing it with a female mini-XLR connector (one option is listed in the [BOM](../Bill_of_materials.csv)).
 
 A standard microphone cable will probably not fit through the narrow opening of the plastic shroud on the mini-XLR connector, but the shroud can be easily drilled out to widen the opening enough to fit the larger cable through. The conductors will also probably be thicker than intended for the mini-XLR solder tabs, so be sure to shield the wires from each other with heat shrink or tape.
